@@ -17,5 +17,5 @@
 - Recently [a friend of mine](https://twitter.com/clairequaclaire/status/1267554737466953733) put out on a poll on twitter asking if I was living on unceceded or treaty land. I assumed unceceded because that’s what they always say before public theatre performances and other events here. But when [I googled it](https://native-land.ca/) I found a website mapping aboriginal communities, languages, and treaties, which suggested that my current location was actually part of the “Crawford Purchase” of 1783. [Nicknamed “the gunshot treaty”](http://www.stoneskingston.ca/indigenous-history/the-crawford-purchase/) its boundaries were supposedly “determined by how far the sound of a gunshot carried.” I realized in this investigation that I know next to nothing about aboriginal treaty history, and that this is the type of historical data particularly suited to mapping. 
 - To get my gills wet, however, I mucked up a quick map of last summer’s family vacation through western Europe:
 
-???? this didn't work <iframe src=“https://uploads.knightlab.com/storymapjs/3f10e63fc07b3d0e9fe302f2e4b512f2/hello-world/index.html” width = 100% height = "400"></iframe>
+<iframe src="https://uploads.knightlab.com/storymapjs/3f10e63fc07b3d0e9fe302f2e4b512f2/hello-world/index.html" frameborder="0" width="100%" height="800"></iframe>
 
