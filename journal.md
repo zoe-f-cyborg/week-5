@@ -14,8 +14,73 @@
 [link to audio file]
 
 ### Story Mapping
-- Recently [a friend of mine](https://twitter.com/clairequaclaire/status/1267554737466953733) put out on a poll on twitter asking if I was living on unceceded or treaty land. I assumed unceceded because that’s what they always say before public theatre performances and other events here. But when [I googled it](https://native-land.ca/) I found a website mapping aboriginal communities, languages, and treaties, which suggested that my current location was actually part of the “Crawford Purchase” of 1783. [Nicknamed “the gunshot treaty”](http://www.stoneskingston.ca/indigenous-history/the-crawford-purchase/) its boundaries were supposedly “determined by how far the sound of a gunshot carried.” I realized in this investigation that I know next to nothing about aboriginal treaty history, and that this is the type of historical data particularly suited to mapping. 
-- To get my gills wet, however, I mucked up a quick map of last summer’s family vacation through western Europe:
+- To get my gills wet I mucked up a quick silly map of the dour-faced selfies I took across western Europe last summer: 
 
-<iframe src="https://uploads.knightlab.com/storymapjs/3f10e63fc07b3d0e9fe302f2e4b512f2/hello-world/index.html" frameborder="0" width="100%" height="800"></iframe>
+<iframe src=“https://uploads.knightlab.com/storymapjs/3f10e63fc07b3d0e9fe302f2e4b512f2/hello-world/index.html” width = 100% height = "400"></iframe>
 
+- ??? This doesn’t seem to work. 
+
+#### Using Leaflet
+- Copying and pasting the source code, this worked fine, but when I tried to make adjustments by altering the coordinates for “this is the center of our map!” and changing the pixel length of the final display map, it no longer loaded anything. I’m not sure if this is because of something I did to the code without realizing it (the long and lat numbers I entered where a digit shorter than the originals, for example, because that’s all the website I was using counted), or because I “terminated session” in terminal so that I could try again, even though it seemed to still be processing something. 
+    - Update: There were a few reasons, I think:
+    - 1. I hadn’t navigated back to web-map in terminal when I reopened it— I have to remember to `cd documents/digital-history/week-5/web-map` every time.
+    - In the Json code, I had removed the spaces on either end of the coordinates within the brackets, so it read `"coordinates":  [-75.693207, 45.411491]` instead of `"coordinates":  [ -75.693207, 45.411491  ]` like the original code. 
+    - With those fixed, it generated a new map beautifully! Now a box of 1000 pixels by 1000 pixels, denoting the location of the YMCA. 
+
+[screencap]
+
+- (this image has the old ottawa map overlay, because I forgot to take a screenshot of the earlier stages)
+
+#### Map Warping
+- the begin, I chose a [simple](https://www.bac-lac.gc.ca/eng/CollectionSearch/Pages/record.aspx?app=fonandcol&IdNumber=2163337&new=-8586104077399913864) image of a flat map
+
+[image]
+
+- I added many control points.
+
+[image]
+
+- And I rectified it, then added it (https://mapwarper.net/maps/tile/47938/{z}/{x}/{y}.png) to my leaflet map. 
+
+[image]
+
+- It looks good, though I’m… not entirely sure that that *is* where the YMCA is. I decided to add the location of my old high school (Lisgar Collegiate Instatute), grabbing the approximate latitude and longitude from [latlong.net](https://www.latlong.net/convert-address-to-lat-long.html).
+
+[image]
+
+- It’s certainly quite close, so although I wouldn’t use this map for extremely precise examination, it gives a pretty good general sense of space.
+
+- I wanted to also try out a [more challenging](https://www.bac-lac.gc.ca/eng/CollectionSearch/Pages/record.aspx?app=fonandcol&IdNumber=4140195&new=-8586104062217727912) (and fun) image, this 3d illustration of an arial view of the city, highlighting major businesses
+
+[image]
+
+- That, er, doesn’t look right. It actually looked alright in preview before I added point 8— the canal just didn’t quite line up with itself. Which makes me realize the green-yellow-red of the location points probably indicates something about the accuracy of my choices?? Interesting. 
+- I was able to delete point 8 and got a much better image:
+
+[image]
+
+- I fidgeted with it for a while, deleting and adding points, until I settled on a less is more philosophy and kept only 4 points. Final url: https://mapwarper.net/maps/tile/47940/{z}/{x}/{y}.png 
+- The maps still don’t line up as well as I would like, however, so I was excited to move on to stage where I would be able to toggle the overlay on and off. 
+
+#### Overlays and animations
+- Following the tutorial, the code definitely worked, though I’m confused why the lumber district map is so small?!?!
+- I also created [a version](http://localhost:8000/index3.html) using the maps I had rectified, renaming the variables to “simple map” and “business map”
+
+[image of code]
+
+[image of map]
+
+- I was able to add the animation easily— Overall I’ve been quite surprised by how forgiving this system seems to be, as I didn’t have any major roadblocks! 
+- I decided to animate the route from Lisgar Collegiate to the YMCA. My points were: 
+`-75.689964, 45.420504
+-75.691992, 45.419796
+-75.687063, 45.414042
+-75.693207, 45.411491`
+- I added those into the code, creating the final map: http://localhost:8000/index4.html. It lined up with the streets very well, as I hoped it would.
+
+#### Conclusion
+- This project was some fo the most fun I’ve had in this course! The code was surprisingly forgiving and although I wouldn’t have been able to construct it myself, I felt fairly comfortable manipulating it as needed. 
+- There is a lot more I could imagine doing with this type of technology, and indeed which has been done: 
+- Recently [a friend of mine](https://twitter.com/clairequaclaire/status/1267554737466953733) put out on a poll on twitter asking if I was living on unceceded or treaty land. I assumed unceceded because that’s what they always say before public theatre performances and other events here. But when [I googled it](https://native-land.ca/) I found a website mapping aboriginal communities, languages, and treaties, which suggested that my current location was actually part of the “Crawford Purchase” of 1783. [Nicknamed “the gunshot treaty”](http://www.stoneskingston.ca/indigenous-history/the-crawford-purchase/) its boundaries were supposedly “determined by how far the sound of a gunshot carried.” This struck me as the type of historical data particularly suited to mapping. I was especially interested in how different areas (both of aboriginal territories and treaty boundaries) sometimes overlaid one another— a contradiction which becomes obvious when mapped! 
+
+[images of cree land // metis land // metis and cree land?]
