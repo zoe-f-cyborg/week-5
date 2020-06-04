@@ -14,13 +14,9 @@
 [my sonification](sonification-roman-data.mp3)
 
 ### Story Mapping
-- To get my gills wet I mucked up a quick silly map of the dour-faced selfies I took across western Europe last summer: 
+- To get my gills wet I mucked up a quick silly map of the dour-faced selfies I took across western Europe last summer:
 
-<div class="embed-responsive embed-responsive-16by9">
-
-<iframe> src=“https://uploads.knightlab.com/storymapjs/3f10e63fc07b3d0e9fe302f2e4b512f2/hello-world/index.html” width = 100% height = "400"></iframe>
-
-</div>
+<iframe src=“https://uploads.knightlab.com/storymapjs/3f10e63fc07b3d0e9fe302f2e4b512f2/hello-world/index.html” width = 100% height = "400"></iframe>
 
 - ??? This didn't seem to work. Will return to it. 
 
