@@ -15,7 +15,7 @@
 ### Story Mapping
 - To get my gills wet I mucked up a quick silly map of the dour-faced selfies I took across western Europe last summer:
 
-![img](link to storymaps page)
+![img](https://zoe-f-cyborg.github.io/week-5/storymap.html)
 
 #### Using Leaflet
 - Copying and pasting the source code, this worked fine, but when I tried to make adjustments by altering the coordinates for “this is the center of our map!” and changing the pixel length of the final display map, it no longer loaded anything. I’m not sure if this is because of something I did to the code without realizing it (the long and lat numbers I entered where a digit shorter than the originals, for example, because that’s all the website I was using counted), or because I “terminated session” in terminal so that I could try again, even though it seemed to still be processing something. 
