@@ -54,11 +54,10 @@
 ![image](ss11.png)
 
 - That, er, doesn’t look right. It actually looked alright in preview before I added point 8— the canal just didn’t quite line up with itself. Which makes me realize the green-yellow-red of the location points probably indicates something about the accuracy of my choices?? Interesting. 
-- I was able to delete point 8 and got a much better image:
+- I was able to delete point 8 and got a much better image. I fidgeted with it for a while, deleting and adding points, until I settled on a less is more philosophy and kept only 4 points. Final url: https://mapwarper.net/maps/tile/47940/{z}/{x}/{y}.png 
 
 ![image](ss15.png)
 
-- I fidgeted with it for a while, deleting and adding points, until I settled on a less is more philosophy and kept only 4 points. Final url: https://mapwarper.net/maps/tile/47940/{z}/{x}/{y}.png 
 - The maps still don’t line up as well as I would like, however, so I was excited to move on to stage where I would be able to toggle the overlay on and off. 
 
 #### Overlays and animations
