@@ -11,7 +11,7 @@
 - Audacity— I’ve had this installed on previous machines for small recording projects of my own and I was quite excited to get back into it! 
 - Two-Tone— I played around with the provided data and created this short piece: I chose A major because I liked the bouncy feeling the more unusual tonic provided. I played around with some of the different instruments but they mostly just added to the dissonance of it, which I did try to minimize. Instead, I went with 3 lines of melody, 1 bass (for the material) and 2 piano (for the coins). Of the piano lines, I set one to play only the higher notes, using the “filter value” scale, and made its tempo x2, so that it effectively added emphasis to those wealthier (in coin) cities. I kept the bass at a x2 tempo mainly because I just liked the way it sounded— it made the fact that the notes rarely change less of a bug and more of a feature, a gentle *ostinato* supporting the piece. I just wish I could tamper with the notes a little bit to give it more of a feeling of resolution… 
 
-![sounds](sonification-roman-data.mp3)
+[my sonification](sonification-roman-data.mp3)
 
 ### Story Mapping
 - To get my gills wet I mucked up a quick silly map of the dour-faced selfies I took across western Europe last summer: 
