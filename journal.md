@@ -1,5 +1,7 @@
 # Week 5 Journal
 
+<iframe  title="YouTube video player" width="480" height="390" src="http://www.youtube.com/watch?v=TheVideoID?autoplay=1" frameborder="0" allowfullscreen></iframe>
+
 ### Readings
 - The introductory musical piece was fascinatingly good. I fell down a rabbit hole reading, and listening to “Assemblage Theory.” 
 - Looking at the [digital panopticon](https://www.digitalpanopticon.org/search?targ=multipie&e0.type.t.t=root&e0.has_tattoo.tty.x=yes&tf-multipie-start=sentence&tf-multipie-end=tattoo_subjects), I found navigating its search criteria slightly confusing. I tried to search within the “executed” category for a long time before realizing that it wasn’t, as I assumed, but because there [was actually none,](https://www.digitalpanopticon.org/search?e0.type.t.t=root&e0.given.s.s=&e0.surname.s.s=&e0._all.s.s=&e1.type.t.t=executed&e1.date.d.ld=&e1.date.d.lm=&e1.date.d.ly=&e1.date.d.hd=&e1.date.d.hm=&e1.date.d.hy=) as none of the nearly 2500 executed convicts are recorded as having tattoos. 
