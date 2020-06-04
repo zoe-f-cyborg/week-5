@@ -17,6 +17,12 @@
 
 https://zoe-f-cyborg.github.io/week-5/storymap.html
 
+- Here it is:
+
+<div>
+<iframe src="https://uploads.knightlab.com/storymapjs/3f10e63fc07b3d0e9fe302f2e4b512f2/hello-world/index.html" frameborder="0" width="100%" height="800"></iframe>
+</div>
+
 #### Using Leaflet
 - Copying and pasting the source code, this worked fine, but when I tried to make adjustments by altering the coordinates for “this is the center of our map!” and changing the pixel length of the final display map, it no longer loaded anything. I’m not sure if this is because of something I did to the code without realizing it (the long and lat numbers I entered where a digit shorter than the originals, for example, because that’s all the website I was using counted), or because I “terminated session” in terminal so that I could try again, even though it seemed to still be processing something. 
     - Update: There were a few reasons, I think:
