@@ -20,6 +20,7 @@ NOTE: “+” refers to pressing both keys simultaneously, not pressing the “+
 ### Github
 - embedding maps, images, etc., from the web so that it will display on a wesbite you create:
 - in a .html file, paste 
-[<div> <iframe src="[url]" frameborder="0" width="100%" height="600"></iframe> </div>]
+
+<div> <iframe src="[url]" frameborder="0" width="100%" height="600"></iframe> </div>
 
 - note: width/height can be changed according to preference
