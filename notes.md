@@ -21,7 +21,6 @@ NOTE: “+” refers to pressing both keys simultaneously, not pressing the “+
 - embedding maps, images, etc., from the web so that it will display on a wesbite you create:
 - in a .html file, paste 
 
-![img](div2.png)
+![div2.png](div2.png)
 
 - note: width/height can be changed according to preference
-
