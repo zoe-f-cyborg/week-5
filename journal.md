@@ -95,11 +95,13 @@
 - I added the bibliography from my podcast and created a short url to the podcast itself (I tried to upload it to github but the file was too large). 
 - Voila!
 
-![my creation](output.pdf)
+[my creation](https://zoe-f-cyborg.github.io/week-5/output.pdf)
 
-- While this poster does provide a basic introduction to the seder plate, it also contains some falsehoods and simplifications— it makes it look like the matzah is an element that is actually on the plate rather than beside or underneath it, and I didn't have space to explain what a "tallit" was (among many other things). The image itself is quite busy, with a bit more text and fewer interesting visuals than I would have liked. I would have especially enjoyed devoting more time to add more boxes/colours for organization and reading flow. 
-- I boxed off the "zeroa" section not really becuase I wanted to emphasize it but becuase I felt like it compositionally needs balance. 
-- This poster also didn't end up including any visualization of data, becuase I don't really have any data-heavy papers to draw from (most of my classes are literary analysis or philosophy). Instead, I took my inspiration from the more casual educational pamphlets I discussed above. Overall, I quite like how this poster flows visually and communicates its point of view (that there is a distinction to be made between confessional and historical truth, but one does not have to negate the other). 
+<div>
+<iframe src="https://zoe-f-cyborg.github.io/week-5/output.pdf" alt="seder plate"  width="800" height="600"></iframe>
+</div>
+
+- While this poster does provide a basic introduction to the seder plate, it also contains some falsehoods and simplifications— it makes it look like the matzah is an element that is actually on the plate rather than beside or underneath it, and it fails to talk about the “karpas” or vegetable element of the plate. This is because it is largely based on my own family’s approach to passover, which often skips the vegetable/combines it with the bitter herbs. 
 
 #### Conclusion
 - This project was some fo the most fun I’ve had in this course! The code was surprisingly forgiving and although I wouldn’t have been able to construct it myself, I felt fairly comfortable manipulating it as needed. 
