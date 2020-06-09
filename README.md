@@ -3,3 +3,5 @@
 This is Week 5 of HIST3814o
 
 You can go to my [Journal](https://zoe-f-cyborg.github.io/week-5/journal) here
+
+And my [notes](https://zoe-f-cyborg.github.io/week-5/notes) here
