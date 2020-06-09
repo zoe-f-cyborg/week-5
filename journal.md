@@ -97,6 +97,10 @@
 
 ![my creation](output.pdf)
 
+<div>
+<img src="output.pdf" alt="the history of the passover seder plate"  width="4200" height="4200">
+</div>
+
 - While this poster does provide a basic introduction to the seder plate, it also contains some falsehoods and simplifications— it makes it look like the matzah is an element that is actually on the plate rather than beside or underneath it, and it fails to talk about the “karpas” or vegetable element of the plate. This is because it is largely based on my own family’s approach to passover, which often skips the vegetable/combines it with the bitter herbs. 
 
 #### Conclusion
