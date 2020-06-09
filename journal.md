@@ -95,7 +95,7 @@
 - I added the bibliography from my podcast and created a short url to the podcast itself (I tried to upload it to github but the file was too large). 
 - Voila!
 
-![my creation](https://zoe-f-cyborg.github.io/week-5/output.pdf)
+[my creation](https://zoe-f-cyborg.github.io/week-5/output.pdf)
 
 <div>
 <iframe src="https://zoe-f-cyborg.github.io/week-5/output.pdf" alt="seder plate"  width="4200" height="4200"></iframe>
