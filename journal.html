@@ -78,6 +78,27 @@
 
 ![img](ss23.png)
 
+### Inkscape
+- In Inkscape, I explored the various ways I was able to manipulate a vector image, changing the font of the title and axis headings from Helvetica to Malayalam MN, and rotating the numbers on the y-axis 
+- I ran into some trouble creating my own palette, which was going to be this one:
+
+![image](#8856a7.png)
+￼
+- I attempted to use one of the preloaded palettes, but given the range of hues found it tiring— I wanted to use the intensity of the colours to emphasis the number of articles, but found the fact that I had to eyeball which bar got which colour meant that it wasn’t guaranteed to be consistent. 
+- I’m not entirely clear on why this application is better than any other photo-shopping app (like Gimp, which also has layers/text/colour fill), besides the fact that it manipulates vector images. It was definitely a bit clunky to get familiar with. 
+
+### Posters!
+- This brings me back to my high school volunteer gig with planned parenthood— waiting around in their offices was always entertaining because there would be different infographic posters and pamphlets *everywhere*. Bright, short, colourful, yet dense, often highlighting one or two statistics, and always with a direct and overt message, these designs always intrigued me. This is largely what I modelled my 
+- For my poster, I decided to adapt a “paper” that wasn’t really a paper to begin with, but a [podcast](soundfile) I did with a friend of mine on the historical origin and symbolic meaning of the Jewish Passover Seder. For this “paper” I did research both by reading books which theorized about the potential origin of the various ritual elements, and by talking about the significance of those elements to us in the modern day (her as an in-progress convert, me as an atheist jew). This struck me as a subject which could be visualized in a very entertaining way, by visualizing the seder plate and annotating every element with information about its origin and significance. I also hope that this format will be conducive to capturing the spirit of play and exploration which I find to be so essential to the holiday. 
+- First, I had to organize my data into a new document to figure out what I wanted to include in my final poster. I created [a google doc](https://docs.google.com/document/d/1q-l_8hEQsNyJeoaT-JWgs46Ro7SpOO_G-KqOv4gztqQ/edit?usp=sharing) with a short introduction, a description (varying in length) of each ritual food, and a short section on the major historical influences of the holiday. 
+- Then, I found clipart for each of the ritual foods, documenting my sources in the google doc. 
+- I added the bibliography from my podcast and created a short url to the podcast itself (I tried to upload it to github but the file was too large). 
+- Voila!
+
+![my creation](output.pdf)
+
+- While this poster does provide a basic introduction to the seder plate, it also contains some falsehoods and simplifications— it makes it look like the matzah is an element that is actually on the plate rather than beside or underneath it, and it fails to talk about the “karpas” or vegetable element of the plate. This is because it is largely based on my own family’s approach to passover, which often skips the vegetable/combines it with the bitter herbs. 
+
 #### Conclusion
 - This project was some fo the most fun I’ve had in this course! The code was surprisingly forgiving and although I wouldn’t have been able to construct it myself, I felt fairly comfortable manipulating it as needed. 
 - There is a lot more I could imagine doing with this type of technology, and indeed which has been done: 
